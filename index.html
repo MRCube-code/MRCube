@@ -1,22 +1,56 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday T + A</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    .card {
+      text-align: center;
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff4d6d;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.5em;
+      color: #333;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    .balloons {
+      margin-top: 20px;
+      font-size: 2em;
+    }
+  </style>
+</head>
 <body>
-	 <h1><em> WELCOME </em></h1><br><br><br>
-    
-    
-  <p><h5>Hello!I am a new html learner.I made this a few days ago. I am still learning how to code and hope i will be still learning.<br>Below there is a gif of Pikachu and my socials and I am still adding mine socials to this code.<br> I love to play games I played FreeFire like 1-2 years ago then switched to Minecraft then Chess.com and now Roblox.</h5></p>
-
-
-	
-  <img src="https://cdn.dribbble.com/userupload/42496707/file/original-1648c9a929b360270d79cdcca18f346a.gif"><br> <br>
-  
-  
-  
-   <a href="https://www.facebook.com/share/1686GjDAaU/"><button><h1> Facebook </h1></button></a>
-   
-   <a href="https://discord.com/users/1123474621811933214"><button><h1> Discord </h1></button><br></a>
-   
-<a href="https://wa.me/+8801716096916">   <button> <h1>watshapp </h1></button></a>
-  </head>
+  <div class="card">
+    <h1>🎉 Happy Birthday, T + A! 🎂</h1>
+    <p>Wishing you both a day full of joy, love, and surprises 🎁💖</p>
+    <div class="balloons">🎈🎈🎈</div>
+  </div>
 </body>
 </html>
